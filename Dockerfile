@@ -1,5 +1,6 @@
-FROM tomcat:8.5.37-jre8
-MAINTAINER maha@gmail.com
-RUN apt-get update
-EXPOSE 8080
+FROM httpd 
+MAINTAINER vamsirajuece@gmail.com
+ADD index.html /usr/local/apache2/htdocs/
+EXPOSE 80
+
 CMD ["catalina.sh", "run"]
