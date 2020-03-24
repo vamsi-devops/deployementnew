@@ -1,2 +1,4 @@
 #!/bin/bash
 apt-get install -y apache2
+cd /opt 
+sudo wget https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/wls/12c/03-DeployApps/files/benefits.war
